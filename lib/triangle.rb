@@ -10,6 +10,15 @@ class Triangle
   end
   
   def kind 
+    a = @side1
+    b = @side2
+    c = @side3 
+    
+    d = a + b 
+    dd = a + c 
+    ddd = b + c 
+    
+    
     
   end
   
