@@ -22,7 +22,8 @@ class Triangle
   end
   
   if cond1 == 0 
-    if (d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
+    raise 
+    elsif(d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
       :scalene
     elsif a==b && b==c then
    :equilateral
