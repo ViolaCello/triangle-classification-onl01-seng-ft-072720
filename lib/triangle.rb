@@ -18,7 +18,8 @@ class Triangle
     dd = a + c 
     ddd = b + c 
     
-    
+    if (d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
+      :
     
   end
   
