@@ -22,7 +22,7 @@ class Triangle
       :scalene
     elsif a==b && b==c then
    :equilateral
- else
+ else :isosceles
    
     end
   end
