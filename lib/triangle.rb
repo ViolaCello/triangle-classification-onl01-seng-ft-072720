@@ -22,6 +22,8 @@ class Triangle
       :scalene
     elsif a==b && b==c then
    :equilateral
+ else
+   
     end
   end
   end
