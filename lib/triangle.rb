@@ -23,7 +23,7 @@ class Triangle
     raise TriangleError
      rescue TriangleError => error
           puts error.message
-          
+        end
     elsif(d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
       :scalene
     elsif a==b && b==c then
