@@ -21,7 +21,7 @@ class Triangle
     if (d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
       :scalene
     elsif a==b && b==c then
-    :
+   :equilateral
     end
   end
   end
