@@ -19,7 +19,7 @@ class Triangle
     ddd = b + c 
     
     
-    if (a>0) & (b>0) & (c>0) then 
+    
     if (d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
       :scalene
     elsif a==b && b==c then
