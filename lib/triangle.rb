@@ -17,6 +17,8 @@ class Triangle
     d = a + b 
     dd = a + c 
     ddd = b + c 
+    
+    
     if (a>0) & (b>0) & (c>0) then 
     if (d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
       :scalene
