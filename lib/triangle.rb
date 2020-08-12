@@ -18,8 +18,10 @@ class Triangle
     dd = a + c 
     ddd = b + c 
     
-    
-    
+    if (a>0) & (b>0) & (c>0) then cond1 = 1 
+  end
+  
+  if cond1 == 0 
     if (d > c || dd > b || ddd > a) && (a!=b) & (a!=c) & (b!=c)
       :scalene
     elsif a==b && b==c then
