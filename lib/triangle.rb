@@ -18,7 +18,7 @@ class Triangle
     dd = a + c 
     ddd = b + c 
     
-    if ((a<1) || (b<1) || (c<1) ) || ((d<=c) || (dd<=b) || (ddd<=a))
+    if ((a<=0) || (b<=0) || (c<=0) ) || ((d<=c) || (dd<=b) || (ddd<=a))
   
     raise TriangleError
     
