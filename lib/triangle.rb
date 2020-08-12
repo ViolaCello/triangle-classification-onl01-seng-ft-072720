@@ -28,7 +28,7 @@ class Triangle
    :equilateral
  else :isosceles
    
-    end
+  
   end
   end
   
