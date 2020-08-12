@@ -9,7 +9,9 @@ class Triangle
     @side3 = sss 
   end
   
-  
+  def kind 
+    
+  end
   
   
   class TriangleError < StandardError
