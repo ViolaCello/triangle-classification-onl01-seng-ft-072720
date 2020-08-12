@@ -37,7 +37,9 @@ class Triangle
   class TriangleError < StandardError
     # triangle error code
     
-    
+     def message
+    "This triangle is illegal"
+  end
   end
   
 end
